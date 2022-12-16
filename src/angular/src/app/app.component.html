@@ -1,2 +1,7 @@
 <h1>{{title}}</h1>
-<h2>{{subTitle}}</h2>
+<div>
+  eingereicht von:
+  <div *ngFor="let prop of proponents">{{prop}},</div>
+</div>
+<p>{{id}} / {{previous}}</p>
+<p>{{content}}</p>
